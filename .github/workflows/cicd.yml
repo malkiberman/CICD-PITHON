@@ -1,14 +1,13 @@
 name: CI/CD
 on:
      push:
-            branches:
-                - master
-                - main
+          branches:
+          - master
+          - main
      pull_request:
         branches:
-             - master
-             - main
-
+        - master
+        - main
 jobs:
     test:
         runs-on: ubunto-latest
